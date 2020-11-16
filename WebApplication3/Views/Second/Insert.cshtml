@@ -1,0 +1,78 @@
+﻿@model WebApplication3.Models.Class1
+@{
+    ViewBag.Title = "Insert";
+}
+
+<h2>Sign up</h2>
+
+@using (Html.BeginForm("InsertData", "Second"))
+{
+    @Html.ValidationSummary(true)
+    {
+        <div class="container">
+
+            <form class="well form-horizontal" action=" " method="post" id="contact_form">
+                <fieldset>
+
+
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">E-Mail</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+
+                                @Html.TextBoxFor(model => model.nom, new { placeholder = "E-Mail Address", @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                    <!-- Text input-->
+
+                    <div class="form-group">
+                         <label class="col-md-4 control-label">Last Name</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                @Html.TextBoxFor(model => model.prenom, new { placeholder = "Last name", @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <br />
+
+
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Age</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                @Html.TextBoxFor(model => model.age, new { placeholder = "Age", @class = "form-control" })
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <br />
+                    <br />
+
+
+
+                    <!-- Button -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label"></label>
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-primary" value="Sign-Up">Send <span class="glyphicon glyphicon-send"></span></button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+        <!-- /.container -->
+
+    }
+}

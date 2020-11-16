@@ -1,0 +1,41 @@
+﻿body {
+    font-size: 48px;
+    font-family: "Droid Sans";
+    background-color: #422622;
+}
+
+#divi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #b9b9b9;
+}
+
+.blink {
+    color: #d88;
+    font-size: 1.5em;
+    animation: blink-anim 1s ease 0s infinite alternate;
+}
+
+@keyframes blink-anim {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+#para {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#foot {
+    font-size: 14px;
+    background-color:sandybrown;
+    margin-top: 40px;
+}
