@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+@using WebApplication3.Models;
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cart</title>
+</head>
+<body>
+    <table cellpadding="2" cellspacing="2" border="1">
+        <tr>
+            <th>Id</th>
+            <th>img</th>
+            <th>name</th>
+            <th>prix</th>
+        </tr>
+        @foreach (cours C in ViewBag.listCours)
+        {
+         <tr>
+            <td>@C.Id</td>
+            <td>@C.img</td>
+            <td>@C.name</td>
+            <td>@C.prix</td>
+             <td align="center">Order Now</td>
+        </tr>
+        }
+</table>
+    </body>
+</html>

@@ -21,6 +21,42 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
+
+        public ActionResult java()
+        {
+            return View();
+        }
+
+        public ActionResult python()
+        {
+            return View();
+        }
+
+        public ActionResult C_sharp()
+        {
+            return View();
+        }
+
+        public ActionResult Nodejs()
+        {
+            return View();
+        }
+
+        public ActionResult Php()
+        {
+            return View();
+        }
+
+        public ActionResult Angular()
+        {
+            return View();
+        }
+
+        public ActionResult DB()
+        {
+            return View();
+        }
+
         public ActionResult Fail()
         {
             return View();
@@ -32,7 +68,6 @@ namespace WebApplication3.Controllers
 
         public ActionResult Insert(WebApplication3.Models.Class1 li)
         {
-
 
             return View(li);
         }

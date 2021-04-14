@@ -1,0 +1,7 @@
+Pour login:
+
+user : test
+Mot de passe : raja
+
+
+##########Le username et le mot de passe se générent automatiquement, vous-pouvez les regarder dans les données de la table ##############

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CartModelStoreContainer" CdmEntityContainer="CartEntities">
+    <EntitySetMapping Name="cours">
+      <EntityTypeMapping TypeName="CartModel.cours">
+        <MappingFragment StoreEntitySet="cours">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="prix" ColumnName="prix" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

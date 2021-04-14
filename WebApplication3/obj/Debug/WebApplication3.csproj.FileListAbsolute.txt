@@ -60,3 +60,6 @@ C:\Users\15149\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplica
 C:\Users\15149\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csproj.CopyComplete
 C:\Users\15149\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
 C:\Users\15149\source\repos\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+C:\Users\15149\Desktop\GitHub Projects\Asp MVC\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csprojAssemblyReference.cache
+C:\Users\15149\Desktop\GitHub Projects\Asp MVC\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
+C:\Users\15149\Desktop\GitHub Projects\Asp MVC\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb

@@ -1,0 +1,48 @@
+﻿h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    padding-bottom: 20px;
+    color: #de0000;
+}
+
+h3 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
+
+@media (min-width: 1300px) {
+    img {
+        padding-left: 10px;
+        margin-left: 5px;
+    }
+
+    h1 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 60px;
+        padding-bottom: 20px;
+        color: #de0000;
+    }
+
+    h3 {
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    p {
+        font-family: 'Assistant', sans-serif;
+        font-size: 18px;
+    }
+
+    a {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 25px;
+    }
+}
